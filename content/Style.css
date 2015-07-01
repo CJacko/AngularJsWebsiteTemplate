@@ -1,0 +1,98 @@
+body {
+    line-height: 1.5;
+    background-color: aliceblue;
+}
+
+.Padding5 {
+    padding: 5px;
+}
+
+.Margin5 {
+    margin: 5px;
+}
+
+.paddingTop10 {
+    padding-top: 10px;
+}
+
+.paddingLeft10 {
+    padding-left: 10px;
+}
+
+.paddingRight10 {
+    padding-right: 10px;
+}
+
+.contactHeading {
+    font-family: Lucida Bright;
+    font-size: 24px;
+    color: navy;
+}
+
+.testRed {
+    background-color: #d48163;
+}
+
+.testBlue {
+    background-color: #49e1d3;
+}
+
+#theContent {
+    min-height: 500px;
+}
+
+#menu {
+    width: 300px;
+}
+
+#map {
+    min-height: 400px;
+    min-width: 300px;
+}
+
+#home div {
+    margin-top: 50px;
+    background-color: aliceblue;
+}
+
+#home p {
+    font-family: Lucida Bright;
+    font-size: 24px;
+    color: navy;
+}
+
+.companyName {
+    font-weight: bolder;
+    font-size: 26px;
+    color: blue;
+}
+
+
+
+@media (min-width:1200px) {
+    .navbar-nav > li > a {
+        padding-top: 25px;
+    }
+
+    .navbar .nav {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+        .navbar .nav > li > a:link {
+            color: blue;
+            font-size: 1.5em;
+        }
+
+        .navbar .nav > li > a:visited {
+            color: blue;
+        }
+
+        .navbar .nav > li > a:hover {
+            color: navy;
+        }
+
+        .navbar .nav > li > a:active {
+            color: #00a1ff;
+        }
+}

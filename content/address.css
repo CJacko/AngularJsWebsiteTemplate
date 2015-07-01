@@ -1,0 +1,39 @@
+﻿address {
+    display: block;
+    font-weight: bold;
+}
+
+    address .org {
+        font-family: Lucida Bright;
+        font-size: 20px;
+        color: blue;
+    }
+
+    address .adr {
+        font-family: Georgia;
+        font-size: 14px;
+    }
+
+    address #hcard-Tony {
+        font-family: Tahoma;
+        font-size: 16px;
+    }
+
+        address #hcard-Tony .number {
+            font-family: Verdana;
+            font-size: 16px;
+            color: blue;
+        }
+
+        address #hcard-Tony a {
+            font-family: Verdana;
+            font-size: 14px;
+        }
+
+            address #hcard-Tony a:active, a:link, a:visited {
+                color: #972121;
+            }
+
+            address #hcard-Tony a:hover {
+                color: blue;
+            }
